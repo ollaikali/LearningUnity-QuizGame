@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   question: What is the highest mountain in Canada?
+  answers:
+  - Mount Lucania
+  - Mount Logan
+  - Mount Wood
+  - King Peak
+  correctAnswerIndex: 1
