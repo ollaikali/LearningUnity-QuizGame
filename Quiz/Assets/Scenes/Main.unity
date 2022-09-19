@@ -304,6 +304,7 @@ GameObject:
   - component: {fileID: 284300119}
   - component: {fileID: 284300118}
   - component: {fileID: 284300117}
+  - component: {fileID: 284300121}
   m_Layer: 5
   m_Name: Quiz Canvas
   m_TagString: Untagged
@@ -394,6 +395,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &284300121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284300116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82de6450d47ff8749a3827ccaf7f9072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1239271833}
+  question: {fileID: 11400000, guid: 7966cd7351ae9db46ad23269e8952e43, type: 2}
 --- !u!1 &397047989
 GameObject:
   m_ObjectHideFlags: 0
