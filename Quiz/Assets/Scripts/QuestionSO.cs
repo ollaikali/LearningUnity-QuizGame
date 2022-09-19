@@ -8,7 +8,7 @@ public class QuestionSO : ScriptableObject
     [TextArea(2, 6)]
     [SerializeField] string question = "Enter your text question here";
     [SerializeField] string[] answers = new string[4];
-    // 0-3
+    // 0-3 index
     [SerializeField] int correctAnswerIndex;
 
 
