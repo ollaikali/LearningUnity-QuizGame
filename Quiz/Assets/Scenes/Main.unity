@@ -285,6 +285,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 284300121}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: onAnswerSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Quiz, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
 --- !u!224 &151889425 stripped
@@ -414,6 +446,8 @@ MonoBehaviour:
   - {fileID: 1748040086}
   - {fileID: 670113123}
   - {fileID: 1718851309}
+  defaultAnswerSprite: {fileID: 21300000, guid: 1334b5c48f529874d894b41ec7a3d683, type: 3}
+  correctAnswerSprite: {fileID: 21300000, guid: d36f5e4a0b39aa74a90d7b3f76e7bc67, type: 3}
 --- !u!1 &397047989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1153,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 284300121}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: onAnswerSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Quiz, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
 --- !u!224 &1284429193 stripped
@@ -1301,6 +1367,38 @@ PrefabInstance:
     - target: {fileID: 244487570482509560, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 284300121}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: onAnswerSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Quiz, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
@@ -1514,6 +1612,34 @@ PrefabInstance:
     - target: {fileID: 244487570482509560, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 284300121}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: onAnswerSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Quiz, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 244487570482509561, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd2068cc723aed4bb698adeb6063eeb, type: 3}
